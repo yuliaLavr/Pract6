@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         //Завдання1:
         System.out.println((int)(Math.random()*41)-20);
+        
         //Завдання2:
         double katet1=3;
         double katet2=4;
@@ -12,11 +13,13 @@ public class Main {
         double pl=0.5*katet1*katet2;
         System.out.println("Периметр "+per);
         System.out.println("Площа "+pl);
+        
         //Завдання3:
         int num=(int)(Math.random()*101);
         int len=String.valueOf(num).length();
         System.out.println(num);
         System.out.println("К-сть цифр "+len);
+        
         //Завдання4:
         int number[]=new int[3];
         for (int i = 0; i <3; i++) {
